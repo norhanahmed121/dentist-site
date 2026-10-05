@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>د. كريم مصطفى | استشاري طب وتجميل الأسنان</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Reem+Kufi:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FBFBF8;--card:#fff;--ink:#06303A;--mute:#4F6F76;--line:#DCE8E6;--mint:#D9F0EA;--acc:#FF8A9A;--accD:#C93A52;--star:#E8A317;--deep:#06303A;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#071E24;--card:#0E2E36;--ink:#EAF6F4;--mute:#9BB9BD;--line:#1E4650;--mint:#12363E;--accD:#FF8A9A;--deep:#04161A}}
+:root[data-theme="dark"]{--bg:#071E24;--card:#0E2E36;--ink:#EAF6F4;--mute:#9BB9BD;--line:#1E4650;--mint:#12363E;--accD:#FF8A9A;--deep:#04161A}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.8 "IBM Plex Sans Arabic",Tahoma,sans-serif}
+h1,h2,h3{font-family:"Reem Kufi","IBM Plex Sans Arabic",Tahoma,sans-serif;line-height:1.25;margin:0}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.w{max-width:1120px;margin:auto;padding:0 22px}
+section{padding:84px 0}
+h2{font-size:clamp(32px,5vw,52px);margin-bottom:10px}
+.sub{color:var(--mute);margin:0 0 40px;font-size:18px}
+.btn{display:inline-block;background:var(--acc);color:#06303A;border:0;border-radius:999px;padding:14px 32px;font:600 18px "IBM Plex Sans Arabic",Tahoma,sans-serif;cursor:pointer;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.o{background:transparent;color:inherit;border:1.5px solid currentColor;opacity:.9}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--deep);color:#fff}
+header .w{display:flex;align-items:center;justify-content:space-between;height:66px}
+.logo{font:700 22px "Reem Kufi",sans-serif}
+nav{display:flex;gap:24px;font-size:15px;opacity:.8}
+@media(max-width:720px){nav{display:none}}
+header .btn{padding:8px 20px;font-size:15px}
+/* hero */
+.hero{background:var(--deep);color:#fff;padding:56px 0 0;overflow:hidden;position:relative}
+.hero:before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(255,138,154,.28),transparent 70%);top:-160px;left:-120px}
+.hero .w{position:relative;display:grid;grid-template-columns:1.3fr .7fr;gap:32px;align-items:center}
+@media(max-width:820px){.hero .w{grid-template-columns:1fr}}
+.chip{display:inline-block;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:4px 16px;font-size:15px;margin-bottom:18px}
+.hero h1{font-size:clamp(46px,8.5vw,104px);letter-spacing:-.5px}
+.hero h1 span{display:block;font-size:.36em;font-weight:500;color:var(--acc);margin-top:14px}
+.hero p{opacity:.8;max-width:50ch;margin:20px 0 28px;font-size:18px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.pt{width:min(300px,70%);aspect-ratio:1;border-radius:50%;background:var(--acc);margin:auto;position:relative;overflow:hidden}
+.pt svg{width:100%;height:100%}
+@media(max-width:820px){.pt{display:none}}
+.smile{display:block;width:100%;max-width:880px;margin:28px auto 0}
+.tooth{transform-box:fill-box;transform-origin:50% 0;animation:pop .6s cubic-bezier(.3,1.5,.5,1) backwards}
+@keyframes pop{from{transform:scale(0);opacity:0}}
+.facts{position:relative;margin:-46px auto 0;max-width:900px;display:grid;grid-template-columns:repeat(3,1fr);background:var(--card);border-radius:24px;box-shadow:0 18px 50px rgba(6,48,58,.18)}
+.facts div{padding:22px 10px;text-align:center;border-inline-start:1px solid var(--line)}
+.facts div:first-child{border:0}
+.facts b{display:block;font:700 clamp(30px,5vw,46px) "Reem Kufi",sans-serif;color:var(--accD);line-height:1.2}
+.facts span{font-size:14px;color:var(--mute)}
+/* about */
+.about .w{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+@media(max-width:820px){.about .w{grid-template-columns:1fr}}
+.about ul{list-style:none;margin:0;padding:0}
+.about li{padding:16px 22px;margin-bottom:10px;background:var(--mint);border-radius:18px;font-weight:600}
+.about li small{display:block;color:var(--mute);font-size:14px;font-weight:400}
+/* services */
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.svc div{background:var(--mint);border-radius:28px;padding:28px;transition:transform .25s}
+.svc div:hover{transform:translateY(-4px)}
+.svc div:nth-child(1),.svc div:nth-child(4){background:var(--deep);color:#fff}
+.svc div:nth-child(1) p,.svc div:nth-child(4) p{color:#fff;opacity:.75}
+.svc svg{width:56px;height:56px;padding:13px;border-radius:50%;background:var(--acc);stroke:#06303A;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.svc h3{font-size:24px;margin:16px 0 6px}
+.svc p{margin:0;color:var(--mute);font-size:16px;line-height:1.7}
+/* booking */
+.book{background:var(--acc);color:#06303A;border-radius:48px 48px 0 0}
+.book .sub{color:#06303A;opacity:.8}
+.bk{display:grid;grid-template-columns:1fr 1fr;gap:20px;background:var(--card);color:var(--ink);border-radius:28px;padding:32px;box-shadow:0 20px 50px rgba(6,48,58,.2)}
+@media(max-width:720px){.bk{grid-template-columns:1fr;padding:22px}}
+label{display:block;font-weight:600;font-size:15px;margin-bottom:6px}
+input,select{width:100%;padding:13px 16px;border-radius:14px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:inherit}
+.f{margin-bottom:16px}
+.slots{display:flex;flex-wrap:wrap;gap:8px}
+.slots button{padding:9px 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font:inherit;font-size:15px;cursor:pointer}
+.slots button[aria-pressed="true"]{background:var(--deep);color:#fff;border-color:var(--deep)}
+.slots button:disabled{opacity:.4;text-decoration:line-through;cursor:not-allowed}
+.full{grid-column:1/-1}
+#ok{display:none;grid-column:1/-1;background:var(--mint);border-radius:18px;padding:20px;text-align:center}
+#err{color:#C0392B;font-size:14px;min-height:20px;margin:0}
+.bk .btn{background:var(--deep);color:#fff;width:100%}
+/* visit */
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:820px){.visit{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:28px}
+.hrs{width:100%;border-collapse:collapse}
+.hrs td{padding:10px 0;border-bottom:1px solid var(--line)}
+.hrs td:last-child{text-align:left;color:var(--mute)}
+.hrs tr.t td{color:var(--accD);font-weight:700}
+.map{height:200px;border-radius:20px;background:var(--mint);overflow:hidden;margin-bottom:16px}
+.map svg{width:100%;height:100%}
+.card .btn.o{color:var(--ink)}
+/* reviews */
+#reviews{background:var(--deep);color:#fff}
+.rv{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}
+.rv figure{margin:0;background:rgba(255,255,255,.07);border-radius:28px;padding:26px}
+.st{color:var(--star);letter-spacing:2px}
+.rv blockquote{margin:8px 0 14px;font-size:18px}
+.rv figcaption{opacity:.7;font-size:14px}
+.score{display:flex;align-items:center;gap:16px;margin-bottom:30px}
+.score b{font:700 64px "Reem Kufi",sans-serif;color:var(--acc);line-height:1}
+footer{padding:28px 0 90px;background:var(--deep);color:#fff;opacity:.9;font-size:14px;text-align:center;border-top:1px solid rgba(255,255,255,.12)}
+.wa{position:fixed;inset-inline-start:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:6;background:#25D366;color:#06301A;font-weight:700;padding:12px 20px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:16px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.tooth{animation:none}.btn,.svc div{transition:none}}
+</style>
+</head>
+<body>
+<header><div class="w"><a class="logo" href="#top">د. كريم مصطفى</a>
+<nav><a href="#about">عن الدكتور</a><a href="#services">الخدمات</a><a href="#book">الحجز</a><a href="#visit">العيادة</a><a href="#reviews">آراء المرضى</a></nav>
+<a class="btn" href="#book" style="padding:8px 18px;font-size:15px">احجز كشف</a></div></header>
+
+<main id="top">
+<section class="hero"><div class="w">
+<div>
+<span class="chip">عيادة د. كريم مصطفى • مدينة نصر</span>
+<h1>ابتسامتك تستاهل<br>إيد خبيرة<span>د. كريم مصطفى — استشاري تجميل وزراعة الأسنان • أكتر من ١٢ سنة خبرة</span></h1>
+<p>علاج بدون ألم، وخطة مكتوبة، وسعر معروف قبل ما نبدأ.</p>
+<div class="cta"><a class="btn" href="#book">احجز موعدك أونلاين</a><a class="btn o" href="tel:+201000000000">اتصل: ٠١٠٠٠٠٠٠٠٠٠٠٠</a></div>
+</div>
+<div class="pt" role="img" aria-label="صورة الدكتور (مكان مؤقت)"><svg viewBox="0 0 200 200"><circle cx="100" cy="82" r="34" fill="#06303A" opacity=".85"/><path d="M26 200c0-55 34-80 74-80s74 25 74 80z" fill="#06303A" opacity=".85"/></svg></div>
+</div>
+<svg class="smile" viewBox="0 0 800 190" id="sm" aria-hidden="true"><path d="M20 30Q400 250 780 30" fill="none" stroke="#FF8A9A" stroke-width="14" stroke-linecap="round"/></svg>
+</section>
+<div class="w"><div class="facts"><div><b>١٢+</b><span>سنة خبرة</span></div><div><b>٨٠٠٠+</b><span>مريض اتعالج</span></div><div><b>٤٫٩ ★</b><span>تقييم المرضى</span></div></div></div>
+
+<section class="about" id="about"><div class="w">
+<div><h2>عن الدكتور</h2><p class="sub">خبرة في العيادة وفي غرفة العمليات.</p>
+<p>بدأ د. كريم رحلته بعد التخرج في كلية طب الأسنان، وعمل في أقسام الجراحة والتجميل بمستشفيات جامعية، وبعدها فتح عيادته عشان يقدم رعاية بتاخد وقتها مع كل مريض.</p></div>
+<ul>
+<li>بكالوريوس طب وجراحة الفم والأسنان<small>جامعة القاهرة</small></li>
+<li>ماجستير جراحة الفم والفكين<small>جامعة عين شمس</small></li>
+<li>دبلومة زراعة الأسنان<small>معتمدة دولياً</small></li>
+<li>عضو نقابة أطباء الأسنان وجمعية التجميل<small>سجل رقم ٠٠٠٠٠ (مثال)</small></li>
+</ul></div></section>
+
+<section id="services"><div class="w"><h2>الخدمات</h2><p class="sub">كل اللي محتاجه لأسنانك في مكان واحد.</p>
+<div class="svc">
+<div><svg viewBox="0 0 32 32"><path d="M16 4c-4-3-10 0-9 6 1 5 2 8 3 14 1 5 3 3 4-2 .5-3 1-3 2-3s1.500 0 2 3c1 5 3 7 4 2 1-6 2-9 3-14 1-6-5-9-9-6z"/></svg><h3>زراعة الأسنان</h3><p>زرعات بأحدث الأنظمة وتعويض كامل للأسنان المفقودة.</p></div>
+<div><svg viewBox="0 0 32 32"><path d="M16 3l2.500 7 7 2.500-7 2.500L16 22l-2.500-7-7-2.500 7-2.500zM25 21l1 3 3 1-3 1-1 3-1-3-3-1 3-1z"/></svg><h3>ابتسامة هوليود</h3><p>فينير وتبييض وتجميل لابتسامة طبيعية متناسقة.</p></div>
+<div><svg viewBox="0 0 32 32"><path d="M6 8h20M6 16h20M6 24h20"/><circle cx="11" cy="8" r="2.500"/><circle cx="21" cy="16" r="2.500"/><circle cx="13" cy="24" r="2.500"/></svg><h3>تقويم الأسنان</h3><p>تقويم معدني وشفاف للكبار والأطفال بخطة واضحة.</p></div>
+<div><svg viewBox="0 0 32 32"><path d="M16 4v24M10 9c0 8 2 12 6 19 4-7 6-11 6-19"/></svg><h3>علاج عصب</h3><p>حشو عصب بجلسة أو اتنين، تحت بنج موضعي كامل.</p></div>
+<div><svg viewBox="0 0 32 32"><circle cx="16" cy="12" r="6"/><path d="M6 28c1-7 5-10 10-10s9 3 10 10"/></svg><h3>أسنان الأطفال</h3><p>كشف لطيف وفلورايد وحشوات في جو مريح للطفل.</p></div>
+<div><svg viewBox="0 0 32 32"><path d="M5 18l7 7L27 8"/></svg><h3>تنظيف وكشف دوري</h3><p>إزالة الجير وفحص شامل، ويفضل كل ٦ شهور.</p></div>
+</div></div></section>
+
+<section class="book" id="book"><div class="w"><h2>احجز موعدك أونلاين</h2><p class="sub">اختار اليوم والمعاد، وهنكلمك نأكد الحجز.</p>
+<div class="bk" id="bk">
+<div><div class="f"><label for="n">الاسم</label><input id="n" autocomplete="name"></div>
+<div class="f"><label for="p">رقم الموبايل</label><input id="p" type="tel" inputmode="tel" autocomplete="tel" placeholder="01xxxxxxxxx"></div>
+<div class="f"><label for="s">نوع الخدمة</label><select id="s"><option>كشف</option><option>زراعة أسنان</option><option>ابتسامة هوليود</option><option>تقويم</option><option>علاج عصب</option><option>أسنان أطفال</option><option>تنظيف</option></select></div></div>
+<div><div class="f"><label for="d">اليوم</label><input id="d" type="date"></div>
+<div class="f"><label>المعاد المتاح</label><div class="slots" id="sl"></div></div></div>
+<p id="err" class="full" role="alert"></p>
+<div class="full"><button class="btn" id="go" type="button">تأكيد الحجز</button></div>
+<div id="ok" role="status"></div>
+</div></div></section>
+
+<section id="visit"><div class="w"><h2>العيادة</h2><p class="sub">مواعيد العمل والعنوان.</p>
+<div class="visit">
+<div class="card"><h3 style="margin-bottom:10px">مواعيد العمل</h3>
+<table class="hrs" id="hrs"></table></div>
+<div class="card"><div class="map" role="img" aria-label="خريطة تقريبية"><svg viewBox="0 0 300 190" preserveAspectRatio="xMidYMid slice"><path d="M0 120h300M0 60h300M90 0v190M200 0v190" stroke="var(--line)" stroke-width="10" fill="none"/><path d="M0 150L300 40" stroke="var(--line)" stroke-width="6"/><path d="M150 62c-10 0-17 7-17 16 0 12 17 30 17 30s17-18 17-30c0-9-7-16-17-16z" fill="var(--acc)"/><circle cx="150" cy="78" r="6" fill="var(--card)"/></svg></div>
+<h3>عيادة د. كريم مصطفى</h3>
+<p style="margin:6px 0">١٢ شارع مصطفى النحاس، الدور الثالث، شقة ٣١<br>مدينة نصر، القاهرة (عنوان تجريبي)</p>
+<p style="margin:6px 0;color:var(--mute)">قدام سيتي ستارز، جنب صيدلية العزبي. جراج متاح.</p>
+<a class="btn o" href="https://maps.google.com/?q=Nasr+City+Cairo" style="margin-top:8px">افتح الخريطة</a></div>
+</div></div></section>
+
+<section id="reviews" style="padding-top:0"><div class="w"><h2>آراء المرضى</h2>
+<div class="score"><b>٤٫٩</b><div><span class="st">★★★★★</span><br><span style="color:var(--mute);font-size:14px">من ٣٢٠ تقييم</span></div></div>
+<div class="rv">
+<figure><span class="st">★★★★★</span><blockquote>خفت جداً من العصب، بس ماحسيتش بأي وجع. الدكتور بيشرح كل خطوة.</blockquote><figcaption>منى س. • علاج عصب</figcaption></figure>
+<figure><span class="st">★★★★★</span><blockquote>عملت ابتسامة هوليود والنتيجة طبيعية جداً. العيادة نضيفة والمواعيد مظبوطة.</blockquote><figcaption>أحمد ع. • تجميل</figcaption></figure>
+<figure><span class="st">★★★★★</span><blockquote>ابني كان بيرفض الكشف، دلوقتي بيطلب يروح. صبر وحنية فعلاً.</blockquote><figcaption>هبة م. • أسنان أطفال</figcaption></figure>
+</div></div></section>
+</main>
+<a class="wa" href="https://wa.me/201000000000">واتساب</a>
+<footer><div class="w">© د. كريم مصطفى • الموقع ده نسخة تجريبية</div></footer>
+
+<script>
+const $=id=>document.getElementById(id);
+const sm=$("sm");for(let i=0;i<9;i++){const t=(i+.5)/9,x=20+760*t,y=30+440*t*(1-t)+14,a=Math.atan2(440*(1-2*t),760)*57.3;
+sm.insertAdjacentHTML("beforeend",`<g transform="translate(${x} ${y}) rotate(${a})"><rect class="tooth" style="animation-delay:${.3+i*.09}s" x="-31" y="0" width="62" height="${i>2&&i<6?86:74}" rx="26" fill="#fff"/></g>`)}
+const days=["الأحد","الاثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت"];
+const hrs=["٢ م – ٩ م","٢ م – ٩ م","٢ م – ٩ م","٢ م – ٩ م","٢ م – ٩ م","مغلق","١٢ ظ – ٦ م"];
+const today=new Date().getDay();
+$("hrs").innerHTML=days.map((d,i)=>`<tr class="${i==today?'t':''}"><td>${d}</td><td>${hrs[i]}</td></tr>`).join("");
+const times=["٢:٠٠ م","٣:٠٠ م","٤:٠٠ م","٥:٠٠ م","٦:٠٠ م","٧:٠٠ م","٨:٠٠ م"];
+let pick=null;
+function slots(){const taken=[1,4];pick=null;$("sl").innerHTML=times.map((t,i)=>`<button type="button" aria-pressed="false" ${(taken.includes(i)&&$("d").value.slice(-1)%2)?'disabled':''}>${t}</button>`).join("");
+[...$("sl").children].forEach(b=>b.onclick=()=>{[...$("sl").children].forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");pick=b.textContent})}
+const t=new Date();t.setDate(t.getDate()+(t.getDay()==5?1:0));
+$("d").min=$("d").value=t.toISOString().slice(0,10);slots();$("d").onchange=slots;
+$("go").onclick=()=>{
+ const n=$("n").value.trim(),p=$("p").value.trim(),d=$("d").value;
+ if(!n)return $("err").textContent="اكتب اسمك من فضلك.";
+ if(!/^01\d{9}$/.test(p.replace(/\s/g,"")))return $("err").textContent="رقم الموبايل لازم يبدأ بـ 01 وفيه ١١ رقم.";
+ if(!d||new Date(d).getDay()==5)return $("err").textContent="اختار يوم تاني، العيادة مقفولة الجمعة.";
+ if(!pick)return $("err").textContent="اختار المعاد المناسب.";
+ $("err").textContent="";
+ $("ok").style.display="block";
+ $("ok").innerHTML=`<b>تم تسجيل طلب الحجز ✓</b><br>${n}، موعدك ${new Date(d).toLocaleDateString("ar-EG",{weekday:"long",day:"numeric",month:"long"})} الساعة ${pick} (${$("s").value}).<br>هنتصل بيك على ${p} لتأكيد الحجز.`;
+ $("ok").scrollIntoView({block:"nearest"});
+};
+</script>
+</body>
+</html>
